@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  background-color: rgb(52, 159, 198);
+  justify-content: center;
+  text-align: center;
+
+}
+.students_data {
+  display: flex;
+  gap: 10px;
+  height: auto;
+  width: 100%;
+  background-color:darkseagreen;
+}
+
+.enroll-student {
+  margin-top: 30px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  width: 45%;
+  height: auto;
+}
+
+ #enrolled-students {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  justify-content: center;
+  width: 55%;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+}
+
+.enroll-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 16px;
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  color: #fff;
+  box-sizing: border-box;
+  border: solid 2px black;
+}
+
+.description {
+  box-sizing: border-box;
+  border-right: solid 2px black;
+  margin-bottom: 0;
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+}
+
+.Image {
+  margin-bottom: 0;
+  width: 30%;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+
+.infoText {
+  margin: 0;
+  padding: 0;
+}
+
+.userName {
+  font-weight: bold;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 130px;
+  justify-content: space-between;
+  border: solid 2px black;
+  border-top: none;
+  position: relative;
+}
+
+.wrapper:nth-child(odd) {
+  background-color: #fff;
+}
+
+.wrapper:nth-child(even) {
+  background-color: white;
+}
+
+.textInfoContainer {
+  width: 70%;
+  height: 100%;
+  box-sizing: border-box;
+  border-right: solid 2px black;
+  padding: 10px;
+}
+
+.imageContainer {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Image {
+  height: auto;
+  width: 105px;
+}
+
+
+
